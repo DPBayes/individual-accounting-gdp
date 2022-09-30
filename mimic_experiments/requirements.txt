@@ -1,0 +1,10 @@
+# fixed versions to prevent preprocessing problems
+# see PR https://github.com/YerevaNN/mimic3-benchmarks/pull/119
+# might be still missing some libraries
+Keras==2.1.2
+numpy>=1.13.3
+scikit-learn==0.18.2
+pandas==0.23.4
+tqdm
+opacus
+optuna
